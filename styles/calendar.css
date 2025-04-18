@@ -1,0 +1,64 @@
+.calendar-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.calendar-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.calendar-container {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  width: auto; 
+  background-color: transparent; 
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+}
+
+.MuiBadge-badge {
+  background-color: transparent;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.PickersDay-root {
+  font-size: 1.5rem;
+  padding: 20px;
+  border-radius: 50%;
+  margin: 5px; 
+}
+
+.PickersDay-root:hover {
+  background-color: #e0e0e0;
+}
+
+.MuiPickersDay-dayWithMargin {
+  margin: 0 10px; 
+}
+
+.info-panel {
+  width: 300px;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}

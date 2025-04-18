@@ -1,0 +1,66 @@
+.notif-main-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  color: #030303;
+  line-height: 48px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.notifications-area {
+  background-color: #f0f0f0;
+  padding: 30px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 70vh; 
+  overflow-y: auto;
+}
+
+.notif-sender {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #030303;
+  font-weight: 700;
+}
+
+.notif-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #030303;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.notif-datetime {
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #6b6b6b;
+}
+
+.notification {
+  padding: 20px;
+  border-bottom: 2px solid #dedede;
+  background-color: #fff;
+  margin-bottom: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.notification:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-area {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #030303;
+  font-weight: 600;
+}

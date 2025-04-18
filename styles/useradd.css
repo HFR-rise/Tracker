@@ -1,0 +1,24 @@
+.user-add-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.useradd-left-col {
+  max-width: 250px;
+}
+
+.useradd-right-col {
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.MuiPaper-root {
+  border-radius: 10px;
+}
+
+.typography-field {
+  margin-top: 1rem;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+}

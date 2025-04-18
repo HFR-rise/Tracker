@@ -1,0 +1,126 @@
+.page-container {
+  display: flex;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+}
+
+.user-page-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.user-page-delete-button {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.user-page-delete-button:hover {
+  background-color: #d9534f;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.user-page-delete-button-replacer {
+  height: 78px;
+}
+
+.user-page-position {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  margin-bottom: 20px;
+  color: #6c757d;
+}
+
+.user-page-col-padding {
+  padding-right: 20px;
+}
+
+.title-field {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.title-field-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #495057;
+}
+
+.title-field-value {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+  color: #343a40;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-col {
+  margin-left: 20px;
+  padding-right: 0;
+}
+
+.main-body {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-button {
+  width: 556px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: #164f94;
+  border: 1px solid #164f94;
+  border-radius: 4px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.edit-button:hover {
+  background-color: #133a6c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+}
+
+.font-props-inherit {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.no-padding {
+  padding: 0;
+}

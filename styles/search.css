@@ -1,0 +1,118 @@
+.search-button {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+}
+
+.search-button:hover {
+  background-color: transparent;
+}
+
+.search-button:active {
+  background-color: transparent;
+}
+
+.search-button:focus {
+  background-color: transparent;
+}
+
+.search-field {
+  font-family: "Roboto";
+  color: #323130;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #ffffff;
+  border: #5e5c5a 1px solid;
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+.search-content {
+  display: flex;
+}
+
+.search-controls {
+  display: flex;
+  margin-top: 20px;
+  height: fit-content;
+  width: fit-content;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.search-title {
+  margin-top: 32px;
+  margin-left: 48px;
+  margin-bottom: 14px;
+  width: 499px;
+  height: 36px;
+  font-family: "Roboto";
+  color: #5d5d5b;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.search-result-label {
+  margin-top: 16px;
+  margin-left: 0;
+  margin-bottom: 0;
+  font-family: "Roboto";
+  color: #080a0b;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.search-results-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: row;
+  margin-left: 59px;
+  margin-right: 48px;
+  border-bottom: #f0f0f0 1px solid;
+}
+
+.search-results {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 62px;
+  grid-column: 1;
+
+}
+
+.search-result {
+  margin-right: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 300px; */
+}
+
+.search-result-label-p {
+  margin: 0px;
+}
+
+.search-result-profpic {
+  object-fit: cover;
+}
+
+.add-employee-button {
+  height: 48px;
+  margin-top: 16px;
+  background-color: #164f94;
+  border: 1px solid #164f94;
+  border-radius: 4px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.add-employee-button:hover{
+  background-color: #133a6c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-suggest-link {
+  color: white;
+}

@@ -1,0 +1,14 @@
+.hidden {
+  display: none;
+}
+
+.MuiPaper-root {
+  border-radius: 10px;
+}
+
+.typography-field {
+  margin-top: 1rem;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+}

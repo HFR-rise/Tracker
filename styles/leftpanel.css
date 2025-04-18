@@ -1,0 +1,52 @@
+/* leftpanel.css */
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff; /* Белый фон для панели */
+  padding-top: 96px;
+  width: 240px;
+  color: #000000; /* Черный цвет текста по умолчанию */
+}
+
+.left-panel-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* Убирает подчеркивание текста */
+  color: #000000; /* Черный цвет текста по умолчанию */
+  padding: 10px 0; /* Уменьшенное внутреннее поле */
+  width: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.left-panel-link:hover {
+  background-color: #164f94; /* Синий фон при наведении */
+  color: #ffffff; /* Белый цвет текста при наведении */
+  text-decoration: none; /* Убирает подчеркивание текста при наведении */
+}
+
+.left-panel-icon {
+  margin-bottom: 4px; /* Уменьшенное расстояние между иконкой и текстом */
+}
+
+.left-panel-label {
+  font-size: 14px;
+  text-align: center;
+}
+
+.highlight {
+  background-color: #164f94; /* Синий фон для выбранной ссылки */
+  color: #ffffff; /* Белый цвет текста для выбранной ссылки */
+  border-radius: 2px;
+}
+
+.left-panel .MuiDrawer-paper {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.left-panel .MuiDrawer-paper:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}

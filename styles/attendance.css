@@ -1,0 +1,22 @@
+.attendance-title {
+  font-size: 10px;
+}
+
+.attendance-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.attendance-table-datepicker {
+  margin-left: 10px;
+}
+
+.attendance-search-employee-button {
+  margin-left: auto;
+}
+
+.attendancetable-status-row {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items:; */
+}

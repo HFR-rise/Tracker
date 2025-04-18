@@ -1,0 +1,13 @@
+.overlay-container {
+  position: relative;
+  margin-top: 58px;
+}
+
+.overlay-bgimage {
+}
+
+.overlay-fgimage {
+  position: absolute;
+  left: 68px;
+  top: 56px;
+}

@@ -1,0 +1,137 @@
+.all-tasks {}
+
+/* Add these styles to your alltasks.css */
+.project-header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 10px 0 #ababab;
+}
+
+.project-name {
+    margin-left: 8vw;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.create-task-button {
+    margin-right: 5.35vw;
+    background-color: #ffffff;
+    border-color: #164f94; /* Green */
+    color: #000000;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.kanban-container {
+    display: flex;
+    width: 94.4%;
+    height: 100vh; /* Занимаем всю высоту экрана */
+    margin-left: 5.5vw;
+    margin-right: 5.5vw;
+
+}
+
+.no-tasks-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 1.5em;
+    color: #888;
+}
+
+.column-tasks {
+
+    padding: 20px;
+    border-right: 1px solid #ccc; /* Разделительная линия */
+    width: 23.5vw;
+    box-shadow: 0 8px 10px 0 #ababab;
+
+}
+
+.column-tasks:last-child {
+    border-right: none; /* Убираем линию у последней колонки */
+}
+
+.header-tasks {
+    background-color: #164f94;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /*box-shadow: var(--shadow-x) var(--shadow-y) 20px #164f94;*/
+    /*transition: box-shadow 0.3s ease-in-out; !* Добавляем плавный переход *!*/
+}
+.list-of-tasks {
+    display: flex;
+    flex-direction: column; /* Выстраиваем кнопки в столбец */
+    margin-top: 2vw;
+    gap: 1.5vw; /* Расстояние между кнопками */
+
+}
+
+.task-backlog {
+    padding: 10px;
+    border: 3px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.task-open {
+    padding: 10px;
+    border: 3px solid #941616;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    /*box-shadow: 0 0 15px 0 #941616;*/
+}
+.task-on-check {
+    padding: 10px;
+    border: 3px solid yellow;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    /*box-shadow: 0 0 15px 0 yellow;*/
+}
+.task-finished {
+    padding: 10px;
+    border: 3px solid green;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    /*box-shadow: 0 0 15px 0 green;*/
+}
+.task-on-check:hover {
+    box-shadow: 0 0 15px 0 #164f94;
+    transition: background-color 0.25s ease-in-out;
+
+}
+.task-deadline:hover {
+    box-shadow: 0 0 15px 0 #164f94;
+    transition: background-color 0.25s ease-in-out;
+
+}
+.task:hover {
+    box-shadow: 0 0 15px 0 #164f94;
+    transition: background-color 0.25s ease-in-out;
+
+}
+
+.task-finished:hover {
+    box-shadow: 0 0 15px 0 #164f94;
+    transition: background-color 0.25s ease-in-out;
+}

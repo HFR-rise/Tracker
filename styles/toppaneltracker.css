@@ -1,0 +1,169 @@
+.the-line {
+  height: 0px;
+}
+
+
+.top-panel-title {
+  margin-top: 48px;
+  margin-left: 48px;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.top-panel-profpic {
+  margin-left: 24px;
+  object-fit: cover;
+}
+
+.top-panel-mp-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: 18px;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+}
+
+.top-panel-mp-more {
+  margin-left: 18px;
+}
+
+.top-panel-content {
+  display: flex;
+}
+
+.top-panel-controls {
+  display: flex;
+  margin-top: 48px;
+  height: fit-content;
+  width: fit-content;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.top-panel-functions {
+  display: flex;
+  margin-left: 48px;
+  width: 716px;
+  border-bottom: 2px #f0f0f0 solid;
+}
+
+.top-panel-function {
+  display: flex;
+  height: fit-content;
+  margin-right: 16px;
+}
+
+.top-panel-function-text {
+  margin-left: 12px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.top-panel-functions-underline {
+  height: 2px;
+  color: #f0f0f0;
+}
+
+.top-panel-tracker-buttons {
+  position: absolute;
+  /*background-color: #ffffff;*/
+  border-color: #164f94;
+  color: #164f94;
+  margin-top: 48px;
+  margin-left: 15.5%;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.all-projects-button {
+  margin-right: 12px;
+  border-color: #164f94;
+  color: #164f94;
+}
+
+.my-projects-button {
+  margin-right: 12px;
+  border-color: #164f94;
+  color: #164f94;
+}
+.my-tasks-button {
+  margin-right: 12px;
+  border-color: #164f94;
+  color: #164f94;
+}
+
+.project-button {
+  margin-right: 12px;
+  border-color: #164f94;
+  color: #164f94;
+}
+
+.task-button {
+  border-color: #164f94;
+  color: #164f94;
+}
+.all-projects-button:hover {
+  background-color: #164f94;
+  color: #fff;
+}
+
+.my-projects-button:hover {
+  background-color: #164f94;
+  color: #fff;
+}
+
+.my-tasks-button:hover {
+  background-color: #164f94;
+  color: #ffffff;
+}
+.project-button:hover {
+  background-color: #164f94;
+  color: #ffffff;
+}
+.task-button:hover {
+  background-color: #164f94;
+  color: #fff;
+}
+
+.support-button {
+  border-color: #164f94;
+  color: #164f94;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.support-button:hover {
+  background-color: #164f94;
+  color: #fff;
+}
+
+.support-button:hover .icon-wrapper,
+.support-button:hover .icon-wrapper .MuiSvgIcon-root {
+  color: #fff;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}

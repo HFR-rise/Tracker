@@ -1,0 +1,391 @@
+.App {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.tracker {
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    padding-top: 0.4%;
+    padding-bottom: 1.4%;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 25%;
+
+    margin-left: 20.5%;
+    margin-top: 2.35%;
+
+    outline: none;
+
+    border: none;
+}
+
+
+
+.Customization-button {
+    border-radius: 10px;
+    /*box-shadow: -10px 30px 200px rgba(0, 0, 0, 0.2);*/
+
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    font-size: 20px;
+    text-align: left;
+
+    color: #ffffff;
+    outline: none;
+    /*transition: background-color 0.2s ease;*/
+
+
+}
+
+
+
+.AddCreate {
+    display: flex;
+    flex-direction: row;
+    margin-left: 13.5vw;
+    margin-top: 2vw;
+    box-sizing: border-box;
+    height: 3.65vw;
+    /*
+    width: 70%;
+    */
+}
+
+
+.create-button {
+    margin-left: 16.7%;
+    background-color: #ffffff;
+    color: #000000;
+    align-items: start;
+    text-align: center;
+    box-shadow: 0 0 10px #941616;
+}
+
+/*.create-button.active {*/
+/*    background-color: #941616;*/
+/*}*/
+.create-button:hover {
+    /*box-shadow: 0 3px 10px 5px #941616;
+    background-color: #941616;
+    color: #ffffff;
+    outline: none;
+}
+
+.add-button {
+    /*height: 70px;*/
+    margin-right: 20%;
+    width: 400px;
+    text-align: center;
+}
+
+
+
+
+.custom-form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    font-family: sans-serif;
+    background-color: #164f94;
+}
+
+.calendar-button {
+    padding: 8px 12px;
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 5px;*/
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.calendar-button:focus {
+    outline: none;
+}
+
+.date-picker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10000; /*  Чтобы календарь был поверх других элементов */
+}
+
+.date-picker-container:hover {
+    box-shadow: 0 0 0 1px #164f94;
+
+}
+
+.save-calendar-button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    margin-top: 10px;
+    flex: 1;
+    width: 100%;
+}
+
+.save-calendar-button:hover {
+    box-shadow: 0 0 0 1px blue;
+
+}
+
+.save-calendar-button:focus {
+    outline: none;
+}
+
+
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    color: #000000;
+    /*
+    white-space: nowrap;
+    */
+    display: inline-flex;
+    align-items: center;
+    /*
+    margin-right: 10px;
+    */
+}
+
+.rounded-form {
+    display: flex;
+
+
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    /*padding: 5px 10px;*/
+    /*width: 385px;*/
+    width: 22vw;
+    height: 3.65vw;
+    overflow: hidden;
+    margin-bottom: 2.3vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    /*justify-content: space-between;*/
+    position: relative;
+}
+
+.rounded-form.lightning {
+
+
+    box-shadow: 0 1px 10px 5px #164f94;
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+.form-left {
+    width: auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 1%;
+    box-sizing: border-box;
+    /*margin-left: 5%;*/
+}
+
+.separator-container {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left:40%;
+
+}
+
+.separator-container.lightning .separator {
+    background-color: #164f94;
+    box-shadow: 0 0 0 0.25px blue;
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+.rounded-form:hover .separator {
+    background-color: #164f94;
+    box-shadow: 0 0 0 0.25px blue;
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+.separator {
+    top: 0;
+    width: 1px;
+    height: 70px;
+    background-color: #000000;
+    transform: translateX(-50%);
+}
+
+
+.form-right-input {
+    margin-left: 25%;
+    margin-right: 10%;
+}
+
+
+.form-right-select {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 4vw;
+    /*left: 40%;*/
+    width: auto;
+    margin-left: auto; /*Располагаем справа*/
+}
+
+.rounded-form:hover {
+    /*box-shadow: 0 0 0 2px #164f94;*/
+    border: 2px solid #164f94;
+    transition: box-shadow 0.25s ease-in-out;
+
+}
+
+.form-right-calendar {
+    position: absolute;
+    top: 0;
+    right: 0; /* Прижимаем к правому краю */
+    height: 100%;
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали по центру */
+    padding-right: 1.5vw;
+    /*left: 40%;*/
+    width: auto;
+    margin-left: auto; /*Располагаем справа*/
+}
+
+
+.input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 5px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-content: end;
+    align-items: end;
+}
+
+.select {
+    display: flex;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    /*max-width: 90%;*/
+    /*background-color: transparent; */
+
+
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+}
+
+.select option {
+    color: #000000;
+}
+
+.select:invalid {
+    color: #cccccc;
+    text-align: end;
+
+}
+
+
+
+.title-form {
+    background-color: #ababab;
+    color: #ffffff;
+    text-align: left;
+    width: 143%;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 30px;
+    resize: none;
+    padding-left: 4%;
+    display: block;
+}
+
+.Customization {
+    margin-top: 2.35%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    cursor: pointer;
+
+    border: none;
+    margin-left: 8%;
+}
+
+.description-form{
+
+
+    text-align: left;
+
+    width: 32vw ;
+
+    font-size: 20px;
+    border: none;
+    padding: 7%;
+    resize: none;
+    height: 33.5vw;
+    outline: none;
+    border-radius: 10px;
+    box-sizing:  border-box;
+
+}
+
+.textarea-container {
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+
+}
+
+.textarea-container:hover{
+    box-shadow: 0 3px 10px 1px #164f94 !important;
+    transition: box-shadow 0.25s ease-in-out !important;
+    overflow: hidden
+}
+
+
+.textarea-container.lightning{
+    box-shadow: 0 3px 10px #164f94;
+}
+
+
+

@@ -1,0 +1,92 @@
+.report-doc-tooltip-close {
+  text-align: right;
+}
+
+.report-doc-employee-signed,
+.report-doc-employee-unsigned {
+  color: #ffffff; 
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: center; 
+}
+
+.report-doc-employee-signed {
+  border: 1px white solid;
+  background-color: green;
+}
+
+.report-doc-employee-unsigned {
+  border: 1px white solid;
+  background-color: red;
+}
+
+.report-doc-user-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.report-doc-user-link:hover {
+  color: #ffffff; 
+}
+
+.report-doc-sent-area {
+  background-color: #fff;
+  padding: 30px;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.report-doc-name {
+  width: 100%;
+  height: 24px;
+  color: #030303;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.report-doc-preformat {
+  white-space: pre-wrap;
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.report-doc-sent-doc {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.report-doc-info-col {
+  padding: 0 14px;
+  flex: 1; 
+}
+
+.report-doc-button-col {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.report-doc-button {
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  background-color: #164f94;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px; 
+  transition: background-color 0.3s ease;
+}
+
+.report-doc-button:hover {
+  background-color: #123d75;
+}

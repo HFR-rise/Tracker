@@ -1,0 +1,17 @@
+.overlay-container-search {
+  position: relative;
+  /* margin-top: 58px; */
+  margin-left: 48px;
+  margin-top: 16px;
+}
+
+.overlay-bgimage-search {
+  width: 660px;
+  height: 48px;
+}
+
+.overlay-fgimage-search {
+  position: absolute;
+  left: 620px;
+  top: 16px;
+}

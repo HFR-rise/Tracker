@@ -1,0 +1,40 @@
+.container-my-tasks-projects {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center; /* Центрируем колонки по горизонтали */
+    align-items: center; /* Центрируем колонки по вертикали */
+    width: 100vw;
+    height: 100vh;
+}
+
+.column-my-tasks-projects {
+    flex: 1; /* Колонки занимают равную часть пространства */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-column {
+    border-right: 1px solid #ccc;
+}
+.column-my-tasks-projects {
+    width: 400px; /* Фиксированная ширина колонки */
+    height: 600px; /* Фиксированная высота колонки */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+}
+.centered-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.attendance-view-cell {
+  border: 1px solid rgba(224, 224, 224, 1);
+  border-collapse: collapse;
+}
+
+.attendance-view-cell-weekend {
+  background-color: lightcoral;
+}
+
+.datepicker {
+  margin-left: 10px;
+}
+
+.attendance-title-container {
+  width: 80vw;
+}

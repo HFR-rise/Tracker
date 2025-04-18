@@ -1,0 +1,85 @@
+.all-projects {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.column {
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    width: 40vw;
+    box-shadow: 0 0 15px 0 #ababab;
+    border-radius: 10px;
+
+}
+
+.column:last-child {
+    border-right: none;
+}
+
+.header {
+    background-color: #164f94;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.list-of-tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    gap: 1.5vw;
+
+}
+
+.task {
+    padding: 10px;
+    border: 3px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.task-deadline {
+    padding: 10px;
+    border: 3px solid #941616;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.task-on-check {
+    padding: 10px;
+    border: 3px solid yellow;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.task-finished {
+    padding: 10px;
+    border: 3px solid green;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.task-on-check:hover {
+    box-shadow: 0 0 15px 0 #164f94;
+    transition: background-color 0.25s ease-in-out;
+
+}
+.task-deadline:hover {
+    box-shadow: 0 0 15px 0 #164f94;
+    transition: background-color 0.25s ease-in-out;
+
+}
+.task:hover {
+    box-shadow: 0 0 15px 0 #164f94;
+    transition: background-color 0.25s ease-in-out;
+
+}
+
+.task-finished:hover {
+    box-shadow: 0 0 15px 0 #164f94;
+    transition: background-color 0.25s ease-in-out;
+}
